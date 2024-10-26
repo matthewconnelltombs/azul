@@ -1,11 +1,9 @@
-# Define tile colors
-TILE_COLORS = ['BLUE', 'WHITE', 'BLACK', 'RED', 'YELLOW']
-
+# Game Tiles
 class Tile:
     def __init__(self, color):
         self.color = color
 
-    # Check for equality based on color.
+    # Check for equality based on color
     def __eq__(self, other):
         if isinstance(other, Tile):
             return self.color == other.color

@@ -2,6 +2,7 @@ from Tile import *
 import random
 
 TILE_COUNT = 20 # tiles of each color
+TILE_COLORS = ['BLUE', 'ORANGE', 'RED', 'BLACK', 'WHITE']
 
 class TileBag:
     def __init__(self):
