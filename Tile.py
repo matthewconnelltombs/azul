@@ -10,5 +10,5 @@ class Tile:
         return False
 
     def __str__(self):
-        return f"Tile (color={self.color})"
+        return f"Tile ({self.color})"
 
